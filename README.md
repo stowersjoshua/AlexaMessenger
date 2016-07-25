@@ -21,8 +21,4 @@ In the Interaction Model section of the Amazon Developer Console's Skill page:
 * paste the contents of ./resources/intent_schema.json to the first text area
 * paste the contents of ./resources/sample_utterances.txt to the second text area
 
-This app only runs on https, you may want to use a tool like Ngrok to host the client on your local environment. If you ran the app using 
-> python send_message.py
-then the app is now running locally on port **5000**, and you should run Ngrok using:
-> ./ngrok http 5000
-in whichever folder you've set up ngrok in.
+This app only runs on https, you may want to use a tool like Ngrok to host the client on your local environment. If you ran the app using **python send_message.py** then the app is now running locally on port **5000**, and you should run Ngrok using: **./ngrok http 5000** in whichever folder you've set up ngrok in.
