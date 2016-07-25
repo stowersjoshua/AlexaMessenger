@@ -1,0 +1,5 @@
+request_message: What would you like to say to {{name}}?
+request_body: My body says {{message_body}}?
+stop: Good bye!
+cancel: Canceling..
+help: Specify a name in your contacts to send a text message to, or say the phone number outloud.

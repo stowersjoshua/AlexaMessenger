@@ -1,0 +1,22 @@
+{
+    "intents": [
+      { 
+        "intent": "BeginIntent",
+        "slots": [
+          { 
+            "name": "contact",
+            "type": "AMAZON.US_FIRST_NAME"
+          }
+        ]
+      },
+      { 
+        "intent": "RequestMessageBodyIntent",
+        "slots": [
+          { 
+            "name": "message_body",
+            "type": "AMAZON.LITERAL"
+          }
+        ]
+      }
+    ]
+}

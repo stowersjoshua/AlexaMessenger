@@ -1,0 +1,8 @@
+BeginIntent {contact}
+BeginIntent message {contact}
+BeginIntent to {contact}
+
+RequestMessageBodyIntent {I will be home soon|message_body}
+RequestMessageBodyIntent say {I will be home soon|message_body}
+RequestMessageBodyIntent tell him {I will be home soon|message_body}
+RequestMessageBodyIntent tell him to {I will be home soon|message_body}
